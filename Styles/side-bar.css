@@ -1,0 +1,9 @@
+.Side-bar{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  top: 55px;
+  width: 72px;
+  Background-color: white;
+
+}
