@@ -1,0 +1,16 @@
+.Wrap{
+  height: 100vh;
+  position: relative;
+  
+}
+.Fire-red{
+  margin-top:0px;
+  background-color: #00253e;
+  height: 50%;
+  width: 100%;
+}
+.Navy{
+  background-color:#fafa1d;
+  height: 50%;
+  width: 100%;
+}
