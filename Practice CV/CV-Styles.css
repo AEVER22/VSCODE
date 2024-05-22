@@ -55,12 +55,29 @@ a{
 .profile-container{
   display: flex;
   gap: 2rem;
+  border-radius: 50%;
 }
-.profile-picture{
+.profile-image-link{
+  display: inline-block;
+  border: none;
+  padding: 0%;
+  background-color: transparent;
+  transition: transform 0.2 ease-in-out;
+}
+.profile-image-link:active{
+  transform: scale(0.95);
+}
+.profile-image{
   max-width: 250px;
-  border-radius: 30%;
-  
+  display: block;
 }
+.profile-image img{
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .profile-first-name{
   color: white;
   font-weight: 200;
@@ -86,4 +103,22 @@ a{
     flex-direction: column;
   }
 }
+/* profile-qualifications*/
+.profile-qualifications{
 
+}
+
+.Qualifications-WebDev{
+Display: Inline-Block;
+Width: 120px;
+
+
+}
+.Qualifications-Cyber-Security{
+Display: Inline-block;
+Width: 120px;
+
+}
+.Qualifications-h2{
+  text-align: center;
+}
