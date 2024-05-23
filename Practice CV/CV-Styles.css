@@ -122,3 +122,11 @@ Width: 120px;
 .Qualifications-h2{
   text-align: center;
 }
+
+/* Search bar*/
+.search-bar{
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
