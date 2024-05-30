@@ -55,7 +55,6 @@ a{
 .profile-container{
   display: flex;
   gap: 2rem;
-  border-radius: 50%;
 }
 .profile-image-link{
   display: inline-block;
@@ -107,25 +106,19 @@ a{
 .profile-qualifications{
 
 }
-
 .Qualifications-WebDev{
 Display: Inline-Block;
 Width: 120px;
-
-
 }
 .Qualifications-Cyber-Security{
 Display: Inline-block;
 Width: 120px;
-
 }
 .Qualifications-h2{
   text-align: center;
 }
-
 /* Search bar*/
 .search-bar{
-
   display: flex;
   flex-direction: column;
   gap: 1rem;
