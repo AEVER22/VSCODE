@@ -1,0 +1,108 @@
+    
+  body{
+    background-color: whitesmoke;
+    background-image: url(Images/LUCKIBBA.png);
+    background-size: 450px 750px;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    /*layout*/
+     .container{
+      display: flex;
+      max-width: 1000px;
+      width: 90%;
+      height: 75vh;
+      margin: 0 auto;
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      justify-content: flex-start;
+      padding-top: 40px;    
+    }
+    .artist{
+      position: fixed;
+      top: 0;
+      text-align: center;
+      justify-content: center;
+      width: 1920px;
+      height: 150px;
+    background-color: transparent;
+    align-items: center;
+    font-size: 100px;
+    }
+    .search{
+      text-align: center;
+      justify-content: center;
+      width: 750px;
+      height: 150px;
+      padding-top: 20px;
+    background-color: transparent;
+    align-items: center;
+    }
+    .catalogue-container{
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      margin-top: 20px;
+    
+
+    }
+    .catalogue-1{
+      color: yellow;
+      width: 375px;
+      height: 750px;
+      text-align: center;
+
+
+    }
+    .catalogue-2{
+      color: yellow;
+      width: 375px;
+      height: 750px;
+      text-align: center;
+
+    }
+    /*Design*/
+    .artist{
+      background-image: url("Images/ARCHIVE.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      z-index: 10;
+    }
+    .header{
+      padding-top: 20px;
+      font-family: "Shadows Into Light", cursive;
+      font-size: 100px;
+      height: 200px;
+      font-style: normal;
+      color: #FFFF00;
+    }
+    .search-bar{
+      display: flex;
+      height: 50px;
+      width: 60%;
+      margin: 170px auto;
+      position: relative;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+      padding-left: 40px;
+      font-weight: thick;
+      border-style: solid;
+      z-index: 5;
+    }
+
+      .search-bar input{
+        text-align: center;
+        width: 60%;
+        height: 60%;
+      }
+      
