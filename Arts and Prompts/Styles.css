@@ -1,0 +1,53 @@
+/*Foundation*/
+body{
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #070707;
+  Background-color: #CCCC99;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px;
+  background-color: #CCCC99;
+}
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #070707;
+  font-weight: bold;
+}
+.lang, .social a{
+text-decoration: none;
+color: #070707;
+}
+.container{
+  Width: 80%;
+  margin: 0 auto;
+}
+.Art-display{
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+gap: 20px;
+margin-top: 20px;
+}
+.Art-display .Art{
+  text-align: center;
+}
+.Art-display .Art img{
+  width: 100%;
+  height: auto;
+}
+.heading{
+  line-height: 1.5rem;
+  color: black;
+  font-size: 20px;
+}
